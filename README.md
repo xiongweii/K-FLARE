@@ -1,29 +1,38 @@
 # K-FLARE
-K-FLARE
-## 数据集准备
-请先在config.py中配置数据集路径，然后按照以下步骤进行准备：
-### 支持的数据集
 
-1. **Twitter15/16**: 推特谣言检测数据集
-2. **Pheme**: 多事件谣言检测数据集
+K-FLARE: Knowledge-enhanced Fake news and misinformation detection through Language model Attention and Rumor Evidence
 
-### 数据集结构
+## Dataset Preparation
+
+Please configure the dataset path in `config.py` first, then follow these steps for preparation:
+
+### Supported Datasets
+
+1. **Twitter15/16**: Twitter rumor detection datasets
+2. **Pheme**: Multi-event rumor detection dataset
+
+### Dataset Structure
 
 ```
 data/
 ├── twitter15/
-│   ├── label.txt          # 标签文件
-│   ├── source_tweets.txt  # 源推文内容
-│   └── tree/             # 传播树文件
+│   ├── label.txt          # Label file
+│   ├── source_tweets.txt  # Source tweet content
+│   └── tree/             # Propagation tree files
 │       ├── <tweet_id>.txt
 │       └── ...
-├── twitter16/             # 同上结构
-└── pheme/                 # 使用pheme_data_processor.py处理
+├── twitter16/             # Same structure as above
+└── pheme/                 # Process using pheme_data_processor.py
 ```
-### 数据预处理
 
-对于Pheme数据集，需要单独运行预处理脚本：
+### Data Preprocessing
+
+For the Pheme dataset, run the preprocessing script separately:
 
 ```bash
 python pheme_data_processor.py
 ```
+
+## Additional Documentation
+
+More detailed documentation including model architecture, training procedures, evaluation metrics, and usage examples will be coming soon.
