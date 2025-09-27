@@ -1,6 +1,6 @@
 # K-FLARE
 
-K-FLARE: Knowledge-enhanced Fake news and misinformation detection through Language model Attention and Rumor Evidence
+K-FLARE: A Knowledge-Fused Language and Relational-learning Framework for Rumor Detection
 
 ## Dataset Preparation
 
