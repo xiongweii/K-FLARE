@@ -26,4 +26,4 @@
     ```math
     w^* = \arg \min_{w} \mathcal{L}_{\text{CE}}(p_{\text{final}}(w), y_{\text{val}})
     ```
-    where `$`p_{\text{final}}(w)`$` denotes the weighted fused prediction
+    where $p_{\text{final}}(w)$ denotes the weighted fused prediction
